@@ -62,5 +62,108 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+header {
+	background-color: #333333;
+	color: #00ff00;
+	text-align: left;
+	padding: 2em;
+}
 
+header h1 {
+	display: inline-block;
+	font-family: Arial, serif;
+	font-size: xx-large;
+}
+
+header em {
+	display: inline-block;
+	margin: 1em;
+	font-family: Arial ,serif;
+}
+
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 5px auto;
+}
+
+.instructions-wrapper {
+	display: inline-block;
+	border: solid black .2em;
+	text-align: center;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	padding: 2em;
+}
+
+.instructions-wrapper > img {
+	height: 10em;
+	width: 12em;
+	float: right;
+	margin-left: 3em;
+}
+
+.instructions-wrapper > .instructions-content {
+	float: left;
+	border-right: 3em;
+	text-align: left;
+}
+
+.about-me .container {
+	display: inline-block;
+	background-color: #0000ff;
+	align-content: right;
+	text-align: left;
+	padding: 3em;
+}
+
+[src="images/stunning.jpg"] {
+	float: left;
+	height: 15em;
+	width: 18em;
+	margin-right: 3em;
+	border: .25em solid white;
+}
+
+html, body {
+	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: .1em solid black;
+}
+
+th {
+	border-collapse: collapse;
+	border: .2em solid #ffffff;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
+}
+
+tr {
+	border-collapse: collapse;
+	border: .2em solid #7b7b7b;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
+}
+
+td {
+	border-collapse: collapse;
+	border: .2em solid #7b7b7b;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
 
