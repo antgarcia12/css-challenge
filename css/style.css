@@ -167,3 +167,29 @@ textarea {
 	width: 100%;
 }
 
+form {
+	display: inline-block;
+	float: left;
+	text-align: left;
+	padding: 1.5em 50em 1.5em 1.5em;
+	background-color: #006400;
+	color: #00f900;
+}
+
+.form-wrapper {
+	display: inline-block;
+	background-color: #006400;
+	margin-top: 3em;
+}
+
+button {
+	background-color: #00ff00;
+	color: black;
+	padding: .25em 1.5em;
+	margin: .1em .25em;
+}
+
+footer {
+	background: #000000;
+	color: #edf6fd;
+}
